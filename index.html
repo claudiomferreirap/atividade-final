@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+      }
+      header {
+        background-color: rgb(108, 104, 116);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      nav {
+        padding: 20px;
+        width: 15vw;
+      }
+      main {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(152, 170, 163);
+      }
+      h1.nome {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 70px;
+        color: black;
+        margin-top: 15%;
+        margin-left: 2%;
+      }
+      div.paragrafo {
+        width: 500px;
+        height: 70px;
+        margin-left: 2%;
+      }
+      p.endereço {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin-left: 1%;
+      }
+      p.aluno {
+        font-style: italic;
+        margin-left: 1%;
+        margin-top: 5%;
+      }
+      ul {
+        list-style: none;
+      }
+      ul.lista-links {
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      ul.lista-links li {
+        margin-bottom: 20px;
+      }
+      a {
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+      }
+      a.index-sobre {
+        color: blue;
+      }
+
+      div.container {
+        margin-top: 200px;
+        border: 1px solid;
+        color: white;
+        width: 400px;
+        height: 200px;
+      }
+      img.foto-perfil {
+        width: 100px;
+        height: 120px;
+        border-radius:100%;
+        margin-bottom: 30px;
+        border: 3px solid;
+        color: rgb(36, 37, 37);
+      }
+      ul.redes-sociais {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 60px;
+      }
+      img.whatsapp {
+        width: 70px;
+      }
+      img.linkedin {
+        width: 70px;
+        margin-left: 60px;
+      }
+      img.instagram {
+        width: 70px;
+        margin-left: 60px;
+      }
+      img.github {
+        width: 70px;
+        margin-left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./imagens/Foto Cláudio2.png" alt="foto-perfil" class="foto-perfil" />
+      <nav>
+        <ul class="lista-links">
+          <li>
+            <a
+              href="./indexsobre.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="index-sobre"
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a href="./indexconhecimentos.html" target="_blank" rel="noopener noreferrer"
+              >Conhecimentos</a
+            >
+          </li>
+          <li>
+            <a href="./indexobjetivo.html" target="_blank" rel="noopener noreferrer">Objetivos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="nome">Cláudio Manoel</h1>
+      <div class="paragrafo">
+        <p class="endereço">
+          Rua Alexandrina de Paula, 425. Lagoa Santa - MG <br />
+          claudiomfp@gmail.com
+        </p>
+        <p class="aluno">
+          Aluno de Desenvolvimento Web Full Stack ministrado pela Growdev
+        </p>
+      </div>
+      <div>
+        <ul class="redes-sociais">
+          <li>
+            <a href="http://contate.me/cláudio"
+              ><img class="whatsapp" src="./imagens/whatsapp.png" alt="" />
+            </a>
+          </li>
+          <li> <a href="https://www.linkedin.com/in/cl%C3%A1udio-manoel-ferreira-de-paula-b0427144/"><img class="linkedin" src="./imagens/linkedin.png" alt="" /></li>
+          </a>
+          <li> <a href="https://www.instagram.com/invites/contact/?i=wdinftbszx2k&utm_content=gpf081d@claudiomfp">
+            <img class="instagram" src="./imagens/instagram.png" alt="" /></a>
+          </li>
+          <li> <a href="https://github.com/claudiomferreirap"><img class="github" src="./imagens/github.png" alt="" /></a></li>
+        </ul>
+      </div>
+
+      <img src="./whatsapp.png" alt="" />
+    </main>
+  </body>
+</html>
